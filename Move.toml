@@ -1,0 +1,18 @@
+[package]
+name = "voting_app"
+version = "1.0.0"
+authors = []
+license = "Apache-2.0"
+
+[addresses]
+MyModule = '0x7ebbd23ee794ede48122a543f05ea22f824129a49e2f394679e8d164cf4a9090'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "testnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
+
+
